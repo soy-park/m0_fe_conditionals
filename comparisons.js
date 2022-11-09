@@ -53,24 +53,31 @@ console.log("Is numberStudents less than or equal to 21?", numberStudents <= 21)
 
 console.log(4 < 9);
 // YOU DO: Explain.
-//This line is printing true to the console because it recognizes the comparison operator and the number 4 being less than the number 9.
+//This line is printing true to the console because it recognizes the comparison operator 
+//and the number 4 being less than the number 9.
 
 var books = 3;
 console.log(4 < books);
 // YOU DO: Explain.
-// This line assigns a value of number 3 to variable books, and prints to the console, false because the comparison operator states that the number 4 is less than the value of books, which is 3.
+// This line assigns a value of number 3 to variable books, and prints to the console, false 
+// because the comparison operator states that the number 4 is less than the value of books, 
+// which is 3.
 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
-// This line assigns a value of number 6 to variable friends, and a value of number 2 to variable siblings. It also prints to the console, true because the value of friends (6) is greater than the value of siblings (2).
+// This line assigns a value of number 6 to variable friends, and a value of number 2 
+// to variable siblings. It also prints to the console, true because the value of friends (6) 
+// is greater than the value of siblings (2).
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
-// This line assigns a value of number 9 to variable attendees, and a value of number 8 to variable meals. It prints to the console, true because the value of attendees is strictly not equal to the value of meals. 
+// This line assigns a value of number 9 to variable attendees, and a value of number 8 
+// to variable meals. It prints to the console, true because the value of attendees 
+// is strictly not equal to the value of meals. 
 
 // #-------------------
 // PART 3: Logical Operators
@@ -104,4 +111,5 @@ console.log(lovesToPlay || lovesDogPark);
 console.log(lovesToPlay || isAPuppy);
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
-// ANSWER: The final line of code evaluates to true because the logical operator states that either one of the variables, lovesToPlay or isAPuppy is true, which is indeed true. 
+// ANSWER: The final line of code evaluates to true because the logical operator states 
+// that either one of the variables, lovesToPlay or isAPuppy is true, which is indeed true. 
